@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./output.css --watch"
+  },
+  "author": "Paul Pitterlein",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
